@@ -1,0 +1,57 @@
+
+
+h1 {
+    color: red;
+  }
+  .lastName {
+    color: blue;
+  }
+  #one{
+    color:#56c4b8;
+  }
+  
+  .title1 {
+    color: teal;
+  }
+  #two{
+    color:#d1140d;
+  }
+  
+  .title2 {
+    color:#d1b00d;
+  }#three{
+    color:#076920;
+  }
+  
+  .title3 {
+    color:#5c9c24;
+  }
+
+  h2{
+      color: #cc0c59; 
+  }
+
+  .firstpara{
+      color:#0ccc0f;
+  }
+
+  .secondpara{
+      color: #07ad68;
+    }
+
+ #four{
+     color: white;
+ }
+
+
+ .a1{
+     color: greenyellow;
+ }
+
+ .a2{
+     color: teal;
+ }
+
+ .a3{
+     color: yellow;
+ }
