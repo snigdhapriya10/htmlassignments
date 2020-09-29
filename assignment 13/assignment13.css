@@ -1,0 +1,52 @@
+body{
+    background-color:#0d7478;
+}
+.nav{
+    padding: 25px;
+    font-size: large;
+    margin: 50px;
+    background-color: whitesmoke;
+    margin-left: 120px;
+    margin-right: 120px;
+    background-color:#AEC6CF ;
+}
+.proj{
+    text-decoration: none;
+}
+.information{
+    background-color: whitesmoke;
+    background-color: #AEC6CF;
+    padding: 25px;
+    margin-left: 105px;
+    margin-right: 105px;
+    text-align: left;
+    margin: 50px;
+}
+.hi{
+    font-size: xxx-large;
+    font-weight: bold;
+}
+.name{
+    font-size: x-large;
+}
+.stud{
+    font-size: larger;
+}
+.about{
+    text-decoration: underline;
+}
+.proj{
+    text-decoration: underline;
+}
+.lang {
+    text-decoration: underline;
+}
+.button {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  }
+img{
+    border-color:#0d7478;
+}
