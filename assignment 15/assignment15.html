@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment 15</title>
+    <link rel="stylesheet" href="assignment15.css">
+</head>
+<body align="center">
+    <div class="form">
+ <img src="cbjr.JPG"cbjr logo">
+  <h2>ADMISSION FORM</h2>
+</div>
+    <b>
+        <div class="admissionformdetails">
+        <label for="username">STUDENT'S NAME</label>
+        <br>
+        <br>
+        <input 
+        type="text"
+        name="username"
+        id="username"
+        minlength="3" maxlength="12" 
+        placeholder="enter name here"
+        required>
+    
+        <br>
+        <br>
+            <br>
+            
+            <label for="college">COLLEGE NAME:</label>
+            <br><br>
+            <input
+              type="text"
+              name="college"
+              id="college"
+              placeholder="enter college name here"
+            required/>
+            <br />
+            <br><br>
+            <label for="phone">STUDENT'S MOBILE NUMBER </label>
+            <br>
+            <br>
+            <input type="tel" 
+            name="phone"
+             id="phone"
+              pattern="[1-9]{1}[0-9]{9}"
+              placeholder="enter mobile number"
+              required />
+<br><br><br>
+<label for="courses">COURSES</label>
+
+            <br><br>
+            <!--i have used different id for each radio button as one may like to choose more than one course-->
+            <input type="radio" name="course1" />Web Development
+            <input type="radio" name="course2" />JAVA
+            <input type="radio" name="course3" />C++
+            <br>
+            <br>
+            <br>
+<label for="email id">EMAIL ID:</label>
+<br><br>
+            <input 
+            type="email"
+            name="emailid"
+            id="emailid"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            placeholder="enter email id"
+            required
+            >
+<br><br><br>
+            <label for="gender">GENDER</label>
+            <br><br>
+            <input type="radio" name="gender" />Male
+            <input type="radio" name="gender" />Female
+            <input type="radio" name="gender" />Others
+            <br>
+            <br>
+            <br>
+            <br>
+
+
+      <button><a href="submit.html">Submit</a></button>
+    </div>
+ </b>
+
+</body>
+</html>
