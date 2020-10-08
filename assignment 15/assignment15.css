@@ -1,0 +1,46 @@
+h2 {
+    color: black;
+    text-decoration:underline;
+}
+h2:hover {
+    color:darkblue;
+    background-color: tomato;
+    
+}
+a:hover{
+  color: brown;
+  background-color:lawngreen;
+}
+a:link{
+    color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a:visited{
+    color: darkgreen;
+    font-family: 'Times New Roman', Times, serif;
+}
+label:hover{
+    background-color: goldenrod;
+}
+
+input:hover{
+    background-color: yellow;
+}
+
+input:focus{
+    background-color:indianred;
+    color: white;
+    border-color: white;
+    border-width: 3px ;
+    border-style: double;
+}
+
+div.admissionformdetails:focus-within{
+    background-color:#cb8df2 ;
+    color: white;
+}
+
+input[type="radio"]:checked{
+    box-shadow: 0 0 0 3px darkorchid ;
+}
