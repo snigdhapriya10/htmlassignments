@@ -1,0 +1,95 @@
+div:hover{
+    background-color: cadetblue;
+}
+.profile {
+    text-align: center;
+  }
+
+ 
+  .header {
+    background-image: url(https://s30876.pcdn.co/wp-content/uploads/Singapore-1170x630.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+  }
+  .name {
+    position: relative;
+    top: 100px;
+    color:black;
+    font-size: 50px;
+    font-family: arial cursive;
+    font-weight: bold;
+
+  }
+  .about {
+    background-color:yellow;
+    padding-right: 40px;
+    padding-bottom: 20px;
+  }
+  .about .heading {
+    text-align: center;
+    font-size: 40px;
+    background-color: yellowgreen;
+    font-weight: 900;
+    position: sticky;
+    top: 55px;
+    z-index: 1;
+  }
+  .about .description {
+    color: black;
+    font-size: 25px;
+    position: relative;
+    /* position: absolute; */
+    top: 10px;
+    left: 30px;
+  }
+  .projects {
+    background-color: peru;
+  }
+.projects .description {
+  color: white;
+  font-size: 25px;
+    position: sticky;
+    top: 5px;
+    bottom: 100px;
+    z-index: 1;
+    text-align: center;
+    font-weight: 900;
+}
+  .contact button {
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    color: red;
+    font-size: 50px;
+    border-color: transparent;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 3;
+  }
+  
+  .nav {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    color: white;
+    background-color: black;
+    font-size: 50px;
+    text-align: center;
+    z-index: 2;
+  }
+
+.contactviaphone button{
+    height: 50px;
+     width: 50px;
+     background-color: transparent;
+     color: red;
+     font-size: 50px;
+     border-color: transparent;
+     position: fixed;
+     bottom: 100px;
+     right: 50px;
+     z-index: 3;
+}
